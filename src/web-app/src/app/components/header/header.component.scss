@@ -1,0 +1,24 @@
+@import "../../../variables";
+
+header {
+  height: $header-height;
+}
+
+.header-body {
+  color: $tweetster-blue;
+  background-color: $header-bg-color;
+  padding: 10px;
+
+  display: flex;
+  flex: 1;
+  align-items: stretch;
+}
+
+app-navbar, app-navbar-test {
+  flex: 1;
+  margin-top: auto;
+}
+
+.header-body-logo img {
+  width: 250px;
+}

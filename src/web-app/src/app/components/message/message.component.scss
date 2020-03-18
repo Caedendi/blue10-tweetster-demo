@@ -1,0 +1,107 @@
+@import "../../../variables";
+
+#message {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  border-style: solid;
+  border-color: darkgray;
+  border-width: 2px;
+  border-radius: 2px;
+}
+
+#message-avatar {
+  width: 75px;
+}
+
+#message-avatar-img {
+  margin: 10px 5px 0px 15px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: darkgray;
+  height: 50px;
+  width: 50px;
+}
+
+#message-content {
+  width: 525px;
+}
+
+#message-content-user {
+
+}
+
+#message-content-user-displayname {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#message-content-user-approved {
+  color: $tweetster-blue;
+  margin-right: 10px;
+}
+
+#message-content-user-username {
+  color: gray;
+}
+
+#message-content-user-fill {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: gray;
+}
+
+#message-content-user-timesince {
+  color: gray;
+}
+
+#message-content-message {
+
+}
+
+#message-content-attachment {
+}
+
+#message-content-attachment-img {
+  max-height: 300px;
+}
+
+#message-content-meta {
+  margin-top: 10px;
+  //margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  color: gray;
+}
+
+#message-content-meta-comments {
+  width: 25%;
+}
+
+#message-content-meta-comments a {
+  //color: inherit;
+}
+
+#message-content-meta-retweets {
+  width: 25%;
+}
+
+#message-content-meta-retweets a {
+  //color: inherit;
+}
+
+#message-content-meta-likes {
+  width: 25%;
+}
+
+#message-content-meta-likes a {
+  //color: inherit;
+}
+
+#message-content-meta-share {
+  width: 25%;
+}
+
+#message-content-meta-share a {
+  //color: inherit;
+}

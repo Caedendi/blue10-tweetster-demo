@@ -1,0 +1,14 @@
+@import "../../../../variables";
+
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  //justify-content: flex-end;
+}
+
+a {
+  color: $tweetster-blue;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 10px;
+}

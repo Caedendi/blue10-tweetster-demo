@@ -1,0 +1,13 @@
+@import "../../../../../variables";
+
+#splash-slideshow {
+  //width: 95%;
+  //max-width: 970px;
+  //max-width: 900px;
+  //margin: auto;
+  //color: #fff;
+  //width: 50%;
+  width: 100%;
+  //height: 100vh;
+  height: calc(100vh - #{$header-height + $footer-height});
+}

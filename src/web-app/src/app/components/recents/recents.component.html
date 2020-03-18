@@ -1,0 +1,32 @@
+<div id="recents">
+  <h1 id="recents-title">Latest messages</h1>
+  <ul>
+    <li *ngFor="let message of recents$">
+      <div id="recents-container">
+        <div id="recents-thumb">
+          <a routerLink="/messages">
+            <!-- add link to category in messages page -->
+            <div id="hexagon-left"></div>
+            <div id="hexagon-middle">
+              <img id="recents-thumb-img" src="../../../assets/test/code.png">
+            </div>
+            <div id="hexagon-right"></div>
+          </a>
+        </div>
+        <div id="recents-content">
+          <a routerLink="/messages/{{message.id}}">
+            <p id="recents-content-date">{{message.postDate}}</p>
+            <h4 id="recents-content-title" class="roboto-c">{{message.level}} {{message.title}} for {{message.company}}</h4>
+            <p id="recents-content-summary">{{message.summary}}</p>
+          </a>
+        </div>
+        <div id="recents-arrow">
+          <a routerLink="/messages/{{message.id}}">
+            <img id="recents-arrow-img" src="../../../assets/right-arrow.png">
+          </a>
+        </div>
+      </div>
+
+    </li>
+  </ul>
+</div>

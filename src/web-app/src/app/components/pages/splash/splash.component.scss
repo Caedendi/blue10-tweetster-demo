@@ -1,0 +1,17 @@
+#splash {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+app-splash-slideshow {
+  width: 50%;
+  //height: 50%;
+}
+
+app-splash-login {
+  width: 50%;
+  //height: 100%;
+}

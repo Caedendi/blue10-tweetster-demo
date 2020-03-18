@@ -1,0 +1,11 @@
+@import "../../../../variables";
+
+#home {
+  //background-color: $vacit-orange;
+  display: flex;
+  flex-direction: row;
+}
+
+app-recents {
+  flex-grow: 1;
+}

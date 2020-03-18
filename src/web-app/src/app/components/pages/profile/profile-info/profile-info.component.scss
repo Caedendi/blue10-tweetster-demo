@@ -1,0 +1,94 @@
+@import "../../../../../variables";
+
+#profile-card {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  border-style: solid;
+  border-color: darkgray;
+  border-width: 2px;
+  border-radius: 2px;
+}
+
+#profile-card-top {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#profile-card-cover {
+  width: 600px;
+  height: 200px;
+}
+
+#profile-card-avatar {
+  position: absolute;
+  top: 125px;
+  left: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: darkgray;
+  height: 150px;
+  width: 150px;
+}
+
+#profile-card-followbutton {
+  margin: 10px;
+  color: $tweetster-blue;
+  font-weight: bold;
+  display: inline;
+  float: right;
+  border-style: solid;
+  padding: 10px 20px 10px 20px;
+  border-radius: 25px;
+  border-color: $tweetster-blue;
+}
+
+#profile-card-info {
+  padding-left: 10px;
+}
+
+#profile-card-name {
+  width: 100%;
+}
+
+#profile-card-name-display {
+  padding: 0;
+  margin: 0;
+}
+
+#profile-card-name-username {
+  color: gray;
+  //padding: 0;
+  //margin: 0;
+}
+
+#profile-card-description {
+}
+
+#profile-card-details {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#profile-card-details i {
+  color: gray;
+  display: inline;
+  margin-right: 3px;
+}
+
+#profile-card-details p {
+  color: gray;
+  display: inline;
+  margin-right: 20px;
+}
+
+#profile-card-follow {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#profile-card-follow-following, #profile-card-follow-followers {
+  display: inline;
+  padding-right: 30px;
+}
+
